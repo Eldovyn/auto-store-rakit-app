@@ -3,8 +3,9 @@ FROM python:3.12-slim
 # Set working directory
 WORKDIR /app
 
-# Enable unbuffered logging
-ENV PYTHONUNBUFFERED=1
+# Enable unbuffered logging and suppress pip root warning
+ENV PYTHONUNBUFFERED=1 \
+    PIP_ROOT_USER_ACTION=ignore
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
