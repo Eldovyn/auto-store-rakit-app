@@ -1,0 +1,79 @@
+
+script_extensions:
+  - .rar
+  - .zip
+  - .gz
+  - .lua
+  - .js
+  - .py
+  - .txt
+
+live_stock_embed: 10
+leaderboard_embed: 10
+
+product_page: 5
+leaderboard_page: 5
+
+emoji_live: <a:live:1269973268455231519>
+emoji_bot: <:growid:1269978167888838681>
+emoji_product: <a:productdet:1174338594819821639>
+emoji_cross: <a:cross:1286871833534140486>
+emoji_tick: <a:tick:1286871575865331774>
+emoji_buy: <:buy:1269975000782475489>
+emoji_balance: <a:balance:1287003129790861343>
+emoji_coin: <a:coin:1269975933226451066>
+emoji_arrow: <a:arrow_kanan:1269981033588330539>
+emoji_verify: <:success:1269857081410850876>
+emoji_crown: <a:crown:1269973214445178941>
+emoji_question: <a:question:1273368032818757682>
+emoji_loading: <a:loading:1273581551036272753>
+emoji_leaderboard: <:leaderboard:1275077141482176533>
+emoji_world_lock: <:world_lock:1277959795474825300>
+emoji_diamond_lock: <a:diamond_lock:1277966236663283776>
+emoji_blue_gem_lock: <a:blue_gem_lock:1277966692517154898>
+emoji_online: <a:online:1277965853308092476>
+emoji_offline: <a:offline:1277965938821697598>
+emoji_line: <a:line:1283433574812487821>
+emoji_qris: <a:qris:1276582215899414700>
+emoji_monitor: <:monitor:1276834635258662952>
+emoji_uang: <a:duit:1315541963440783421>
+
+pagination:
+  first_page_button: ⏪
+  previous_page_button: ◀️
+  next_page_button: ▶️
+  last_page_button: ⏩
+
+
+extensions:
+  - events.on_application_command_error
+  - events.on_buy_get
+  - events.on_channel_delete
+  - events.on_discount
+  - events.on_donate_lock
+  - events.on_donate_saweria
+  - events.on_donate_sociabuzz
+  - events.on_donate_trakteer
+  - events.on_giveaway
+  - events.on_leaderboard
+  - events.on_live_stock
+  - events.on_member_join
+  - events.on_member_remove
+  - events.on_message_delete
+  - events.on_ready
+  - events.on_update_balance
+  - events.on_qris
+  - events.on_qris_payment
+  - commands.check
+  - commands.create
+  - commands.delete
+  - commands.deposit
+  - commands.help
+  - commands.leaderboard
+  - commands.player
+  - commands.product
+  - commands.rate_dl
+  - commands.rep
+  - commands.set
+  - commands.toggle
+  - commands.update
