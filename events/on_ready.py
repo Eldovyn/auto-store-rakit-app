@@ -25,7 +25,7 @@ class OnReady(commands.Cog):
             status=nextcord.Status.dnd,
             activity=nextcord.Activity(
                 type=nextcord.ActivityType.watching,
-                name="Nexblu Store",
+                name="Rakit App",
             ),
         )
         print(f"bot is online as {self.bot.user}")
